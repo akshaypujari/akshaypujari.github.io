@@ -15,9 +15,9 @@ url                      : https://akshaypujari.github.io # the base hostname & 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "akshaypujari/akshaypujari.github.io"
 teaser                   : "500x300.png" # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
-future                   : false
+future                   : true
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
@@ -87,14 +87,14 @@ author:
   employer         : "Rubedo Life Sciences"
   pubmed           : 
   googlescholar    : #"https://scholar.google.fr/citations?user=0donG7gAAAAJ"
-  email            : "akshaypujari013[at]gmail.com"
+  email            : "akshaypujari013@gmail.com"
   researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "akshaypujari013"
   foursquare       :
   github           : "akshaypujari"
   google_plus      :
@@ -176,19 +176,19 @@ kramdown:
 # Collections
 collections:
   projects:
-    output: true
+    output: false
     permalink: /:collection/:path/
   teaching:
-    output: true
+    output: false
     permalink: /:collection/:path/
   publications:
-    output: true
+    output: false
     permalink: /:collection/:path/
   portfolio:
-    output: true
+    output: false
     permalink: /:collection/:path/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:path/
 
 
