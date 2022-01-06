@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "ANR Melody 2019-2023"
 collection: projects
 type: "ANR"
@@ -24,5 +24,5 @@ Artificial Intelligence (AI) technologies and models open new paradigms to addre
 
 <div style="text-align: justify">
 <strong> Role in the project:</strong>  Principal Investigator
-</div>
+</div> -->
 
