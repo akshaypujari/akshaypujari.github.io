@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ronan Fablet"
+title                    : "Akshay Pujari"
 title_separator          : "-"
-name                     : &name "Ronan Fablet"
+name                     : &name "Akshay Pujari"
 description              : &description "personal description"
-url                      : https://rfablet.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://akshaypujari.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "rfablet/rfablet.github.io"
+repository               : "akshaypujari/akshaypujari.github.io"
 teaser                   : 500x300.png# filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -59,7 +59,7 @@ yandex_site_verification :
 twitter:
   username               : &twitter
 facebook:
-  username               :
+  username               : akshaypujari013
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ronan Fablet"
+  name             : "Akshay Pujari"
   avatar           : "profile.png"
-  bio              : "Data Science & Ocean Science"
-  location         : "Prof. IMT Atlantique, Brest, FR"
-  employer         : "Lab-STICC UMR CNRS"
+  bio              : "Data Scientist, Bioinformatician & Software Engineer"
+  location         : "San Francisco Bay Area"
+  employer         : "Rubedo Life Sciences"
   pubmed           : 
-  googlescholar    : "https://scholar.google.fr/citations?user=0donG7gAAAAJ"
-  email            : "ronan.fablet[at]imt-atlantique.fr"
-  researchgate     : "https://www.researchgate.net/profile/Ronan_Fablet"# example: "https://www.researchgate.net/profile/yourprofile"
+  googlescholar    : #"https://scholar.google.fr/citations?user=0donG7gAAAAJ"
+  email            : "akshaypujari013[at]gmail.com"
+  researchgate     : # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "rfablet"
+  github           : "akshaypujari"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "el_akshay"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "fablet-ronan-49a4547a"
-  orcid            : "https://orcid.org/0000-0002-6462-423X"
+  linkedin         : "akshaypujari"
+  orcid            : "https://orcid.org/0000-0002-7499-5122"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : #"replacethistwitterhandle"
+  twitter          : "el_akshay" #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
