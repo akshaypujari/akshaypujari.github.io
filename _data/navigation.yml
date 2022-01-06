@@ -6,11 +6,11 @@ main:
 #   - title: "Highlights & Demo"
 #     url: /portfolio/
             
-  - title: "Research"
-    url: /projects/
+#   - title: "Research"
+#     url: /projects/
 
-  - title: "Publications"
-    url: /publications/
+#   - title: "Publications"
+#     url: /publications/
 
 #   - title: "Talks & Outreach"
 #     url: /talks/    
