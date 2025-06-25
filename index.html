@@ -1,102 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Akshay Pujari</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Akshay Pujari – About</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow fixed w-full top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-semibold text-gray-800">Akshay Pujari</a>
+      <nav class="hidden md:flex space-x-6">
+        <a href="index.html" class="text-blue-600 font-semibold">About</a>
+        <a href="experience.html" class="text-gray-600 hover:text-blue-600">Experience</a>
+        <a href="publications.html" class="text-gray-600 hover:text-blue-600">Publications</a>
+        <a href="contact.html" class="text-gray-600 hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
   <!-- Hero Section -->
-    <section class="relative min-h-screen flex items-center justify-center text-white">
-      <!-- Black gradient background -->
-      <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
-    
-      <!-- Content -->
-      <div class="relative text-center px-6 z-10">
-        <h1 class="text-4xl md:text-6xl font-bold mb-4">Akshay Pujari</h1>
-        <p class="text-lg md:text-xl max-w-2xl mx-auto">
-          Data Scientist ∙ Software Engineer ∙ Bioinformatician ∙ Creative Technologist
-        </p>
-      </div>
-    </section>
-
-
-  <!-- About Section -->
-  <section class="py-16 px-8 md:px-16 bg-white">
-    <h2 class="text-3xl font-semibold mb-4">About Me</h2>
-    <div class="w-full md:max-w-5xl text-lg space-y-6">
-      <p>
-        Computational scientist with expertise in developing advanced data processing pipelines, algorithms, visualizations, and software tools to support diverse research teams in biotech. Proficient in integrating and analyzing diverse data and technologies, including multi-omics, NGS, imaging, chemoinformatics, alongside in-silico, in-vitro, and in-vivo experiments to drive data and literature-driven research.
-      </p>
-      <p>
-        – Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry. Previously, Research Associate II at DiCE Therapeutics.
-      </p>
-      <p>
-        – Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.
-      </p>
-      <p>
-        – Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.
+  <section class="relative min-h-screen flex items-center justify-center text-white pt-24">
+    <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
+    <div class="relative text-center px-6 z-10">
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">Akshay Pujari</h1>
+      <p class="text-lg md:text-xl max-w-2xl mx-auto">
+        Data Scientist ∙ Software Engineer ∙ Bioinformatician
       </p>
     </div>
   </section>
 
-  <!-- Projects Section -->
-  <section class="py-16 px-8 md:px-16 bg-gray-100">
-    <h2 class="text-3xl font-semibold mb-4">Featured Projects</h2>
-    <ul class="space-y-6">
-      <li>
-        <h3 class="text-xl font-semibold">Phaedon Institute Website</h3>
-        <p>Designed, developed, and maintain the public-facing website and digital infrastructure. Integrated CMS, automated workflows, and platform tooling.</p>
-      </li>
-      <li>
-        <h3 class="text-xl font-semibold">Single-cell Analysis Platform</h3>
-        <p>Built internal pipelines and dashboards to visualize omics data for drug discovery. Used Python, Dash, and AWS EKS.</p>
-      </li>
-    </ul>
-  </section>
+  <!-- About Section -->
+  <main class="pt-16 px-8 md:px-16 pb-16">
+    <h1 class="text-4xl font-bold mb-8">About Me</h1>
+    <div class="max-w-5xl space-y-6 text-lg">
+      <p>Computational scientist with expertise in developing advanced data processing pipelines, algorithms, visualizations, and software tools to support diverse research teams in biotech. Proficient in integrating and analyzing diverse data and technologies, including multi-omics, NGS, imaging, chemoinformatics, alongside in-silico, in-vitro, and in-vivo experiments to drive data and literature-driven research.</p>
+      <p>– Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry. Previously, Research Associate II at DiCE Therapeutics.</p>
+      <p>– Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.</p>
+      <p>– Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.</p>
+    </div>
+  </main>
 
-  <!-- Resume / Skills Section -->
-  <section class="py-16 px-8 md:px-16 bg-white">
-    <h2 class="text-3xl font-semibold mb-4">Technical Skills</h2>
-    <p class="max-w-4xl">Python · SQL · HTML/CSS · TailwindCSS · WordPress · AWS · Git · Jupyter · Dash · GitHub Actions · Kubernetes · Bioinformatics · Data Visualization</p>
-  </section>
+  <footer class="text-center py-8 text-sm text-gray-400 bg-gray-900">
+    &copy; 2025 Akshay Pujari. All rights reserved.
+  </footer>
 
-  <!-- Contact Section -->
-<section class="py-16 px-8 md:px-16 bg-gray-100">
-  <h2 class="text-3xl font-semibold mb-8">Get in Touch</h2>
-  <div class="space-y-4 text-lg">
-    <p>
-      <a href="https://www.linkedin.com/in/akshaypujari" class="flex items-center space-x-2 text-blue-600 hover:underline">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/linkedin.png" alt="LinkedIn" class="w-5 h-5" />
-        <span>linkedin.com/in/akshaypujari</span>
-      </a>
-    </p>
-    <p>
-      <a href="https://twitter.com/el_akshay" class="flex items-center space-x-2 text-blue-600 hover:underline">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/twitter.png" alt="Twitter" class="w-5 h-5" />
-        <span>el_akshay</span>
-      </a>
-    </p>
-    <p>
-      <a href="mailto:akshaypujari013@gmail.com" class="flex items-center space-x-2 text-blue-600 hover:underline">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/new-post.png" alt="Email" class="w-5 h-5" />
-        <span>akshaypujari013@gmail.com</span>
-      </a>
-    </p>
-    <p>
-      <a href="https://github.com/akshaypujari" class="flex items-center space-x-2 text-blue-600 hover:underline">
-        <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" alt="GitHub" class="w-5 h-5" />
-        <span>akshaypujari</span>
-      </a>
-    </p>
-  </div>
-</section>
-
-
-<footer class="text-center py-8 text-sm text-gray-400 bg-gray-900">
-  &copy; 2025 Akshay Pujari. All rights reserved.
-</footer>
 </body>
 </html>
-
