@@ -13,7 +13,7 @@ permalink: /career/
     <!-- Rubedo -->
     <div class="grid md:grid-cols-6 gap-6 items-start bg-gray-50 p-8 rounded-xl shadow-lg animate-fadeIn">
       <div class="md:col-span-1 flex justify-center md:justify-start">
-        <img src="{{ '/assets/images/rubedo.png' | relative_url }}" alt="Rubedo Logo" class="w-16 h-16 object-contain">
+        <img src="{{ '/assets/logos/rubedo-logo.png' | relative_url }}" alt="Rubedo Logo" class="w-16 h-16 object-contain">
       </div>
       <div class="md:col-span-4 space-y-2">
         <p class="text-lg font-semibold text-gray-800">Rubedo Life Sciences</p>
@@ -30,7 +30,7 @@ permalink: /career/
     <!-- Phaedon -->
     <div class="grid md:grid-cols-6 gap-6 items-start bg-gray-50 p-8 rounded-xl shadow-lg animate-fadeIn">
       <div class="md:col-span-1 flex justify-center md:justify-start">
-        <img src="{{ '/assets/images/phaedon.png' | relative_url }}" alt="Phaedon Logo" class="w-16 h-16 object-contain">
+        <img src="{{ '/assets/logos/phaedon-institute-primary-logo.png' | relative_url }}" alt="Phaedon Institute Logo" class="w-16 h-16 object-contain">
       </div>
       <div class="md:col-span-4 space-y-2">
         <p class="text-lg font-semibold text-gray-800">Phaedon Institute</p>
@@ -47,7 +47,7 @@ permalink: /career/
     <!-- DiCE -->
     <div class="grid md:grid-cols-6 gap-6 items-start bg-gray-50 p-8 rounded-xl shadow-lg animate-fadeIn">
       <div class="md:col-span-1 flex justify-center md:justify-start">
-        <img src="{{ '/assets/images/dice.png' | relative_url }}" alt="DiCE Logo" class="w-16 h-16 object-contain">
+        <img src="{{ '/assets/logos/dice-therapeutics-logo.png' | relative_url }}" alt="DiCE Logo" class="w-16 h-16 object-contain">
       </div>
       <div class="md:col-span-4 space-y-2">
         <p class="text-lg font-semibold text-gray-800">DiCE Molecules (Now Subsidiary of Eli Lilly and Company)</p>
@@ -68,7 +68,7 @@ permalink: /career/
     <!-- UMass -->
     <div class="grid md:grid-cols-6 gap-6 items-start bg-white p-8 rounded-xl shadow-lg animate-fadeIn">
       <div class="md:col-span-1 flex justify-center md:justify-start">
-        <img src="{{ '/assets/images/umass.png' | relative_url }}" alt="UMass Logo" class="w-16 h-16 object-contain">
+        <img src="{{ '/assets/logos/umass-logo.png' | relative_url }}" alt="UMass Amherst Logo" class="w-16 h-16 object-contain">
       </div>
       <div class="md:col-span-4 space-y-2">
         <p class="text-lg font-semibold text-gray-800">University of Massachusetts Amherst</p>
@@ -85,7 +85,7 @@ permalink: /career/
     <!-- KIT -->
     <div class="grid md:grid-cols-6 gap-6 items-start bg-white p-8 rounded-xl shadow-lg animate-fadeIn">
       <div class="md:col-span-1 flex justify-center md:justify-start">
-        <img src="{{ '/assets/images/kit.png' | relative_url }}" alt="KIT Logo" class="w-16 h-16 object-contain">
+        <img src="{{ '/assets/logos/unishivaji-logo.png' | relative_url }}" alt="KIT Logo" class="w-16 h-16 object-contain">
       </div>
       <div class="md:col-span-4 space-y-2">
         <p class="text-lg font-semibold text-gray-800">Kolhapur Institute of Technology</p>
