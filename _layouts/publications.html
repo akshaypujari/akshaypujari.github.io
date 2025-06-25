@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<main class="max-w-4xl mx-auto px-6 py-16">
+  <h1 class="text-3xl font-bold mb-2">{{ page.title }}</h1>
+
+  <p class="text-gray-600 italic mb-4">
+    {{ page.authors }}<br>
+    <span class="block">{{ page.journal }}, {{ page.year }}</span>
+  </p>
+
+  {% if page.doi %}
+    <p class="mb-4">
+      <a href="{{ page.doi }}" class="text-blue-600 hover:underline" target="_blank">View DOI</a>
+    </p>
+  {% endif %}
+
+  <div class="prose max-w-none">
+    {{ content }}
+  </div>
+</main>
