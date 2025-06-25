@@ -1,0 +1,77 @@
+# Site settings
+title: Akshay Pujari
+description: >-
+  Computational scientist, software engineer, and bioinformatician. Exploring problems at the intersection of data and biology.
+baseurl: "" # leave empty for GitHub Pages root
+url: "https://akshaypujari.github.io"
+lang: en
+author: Akshay Pujari
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+# Sass settings
+sass:
+  sass_dir: assets/scss
+  style: compressed
+
+# Permalinks
+permalink: pretty
+
+# Collections (e.g., for projects, publications if separated)
+collections:
+  publications:
+    output: true
+    permalink: /publications/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Exclusions
+exclude:
+  - node_modules
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+# SEO
+seo:
+  title: Akshay Pujari
+  description: Computational biologist, engineer, and technologist.
+  type: Person
+  name: Akshay Pujari
+  url: https://akshaypujari.github.io
+
+# Sitemap
+sitemap:
+  exclude:
+    - /assets/
+
+# Google Analytics
+google_analytics: G-XXXXXXXXXX # Replace with your tag
+
+# Social (used by SEO + sidebar/contact cards)
+social_links:
+  github: akshaypujari
+  linkedin: akshaypujari
+  twitter: el_akshay
+  email: akshaypujari013@gmail.com
