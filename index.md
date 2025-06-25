@@ -1,6 +1,5 @@
 ---
-layout: page
-title: "Akshay Pujari"
+layout: home
 permalink: /
 ---
 
