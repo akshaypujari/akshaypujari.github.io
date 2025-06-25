@@ -28,7 +28,7 @@ defaults:
       layout: page
 
 sass:
-  sass_dir: assets/scss
+  sass_dir: assets/_scss
   style: compressed
 
 plugins:
