@@ -26,19 +26,19 @@ permalink: /
 
       <ul class="space-y-10 max-w-3xl mx-auto">
         <li class="flex items-start">
-          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <span class="flex-shrink-0 w-3.5 h-3.5 mt-2 bg-gray-800 rounded-full shadow-sm border border-gray-500"></span>
           <div class="ml-4 text-gray-800 text-lg leading-relaxed">
             Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry. Previously, Research Associate II at DiCE Therapeutics.
           </div>
         </li>
         <li class="flex items-start">
-          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <span class="flex-shrink-0 w-3.5 h-3.5 mt-2 bg-gray-800 rounded-full shadow-sm border border-gray-500"></span>
           <div class="ml-4 text-gray-800 text-lg leading-relaxed">
             Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.
           </div>
         </li>
         <li class="flex items-start">
-          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <span class="flex-shrink-0 w-3.5 h-3.5 mt-2 bg-gray-800 rounded-full shadow-sm border border-gray-500"></span>
           <div class="ml-4 text-gray-800 text-lg leading-relaxed">
             Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.
           </div>
