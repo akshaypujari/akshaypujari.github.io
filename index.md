@@ -13,44 +13,46 @@ permalink: /
   </div>
 </section>
 
-<section class="py-16 px-8 md:px-16 bg-white text-center">
-  <h2 class="text-3xl font-semibold mb-8">About Me</h2>
-  <div class="max-w-3xl mx-auto text-lg space-y-6 text-left md:text-center">
-    <p>
-      Computational scientist with expertise in developing advanced data processing pipelines, algorithms, visualizations, and software tools to support diverse research teams in biotech. Proficient in integrating and analyzing diverse data and technologies, including multi-omics, NGS, imaging, chemoinformatics, alongside in-silico, in-vitro, and in-vivo experiments to drive data and literature-driven research.
-    </p>
-    <p>
-      – Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry. Previously, Research Associate II at DiCE Therapeutics.
-    </p>
-    <p>
-      – Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.
-    </p>
-    <p>
-      – Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.
-    </p>
+<section class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-16 tracking-tight">
+      About Me
+    </h2>
+
+    <div class="relative">
+      <p class="text-xl text-gray-700 leading-relaxed text-center max-w-3xl mx-auto mb-12">
+        Computational scientist with expertise in developing advanced data processing pipelines, algorithms, visualizations, and software tools to support diverse research teams in biotech. Proficient in integrating and analyzing diverse data and technologies, including multi-omics, NGS, imaging, chemoinformatics, alongside in-silico, in-vitro, and in-vivo experiments to drive data and literature-driven research.
+      </p>
+
+      <ul class="space-y-10 max-w-3xl mx-auto">
+        <li class="flex items-start">
+          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <div class="ml-4 text-gray-800 text-lg leading-relaxed">
+            Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry. Previously, Research Associate II at DiCE Therapeutics.
+          </div>
+        </li>
+        <li class="flex items-start">
+          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <div class="ml-4 text-gray-800 text-lg leading-relaxed">
+            Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.
+          </div>
+        </li>
+        <li class="flex items-start">
+          <span class="flex-shrink-0 w-5 h-5 mt-1 bg-blue-600 rounded-full shadow-md"></span>
+          <div class="ml-4 text-gray-800 text-lg leading-relaxed">
+            Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
 
-<section class="py-16 px-8 md:px-16 bg-gray-50 text-center">
-  <h2 class="text-2xl font-semibold mb-6 text-gray-800">Location & Time</h2>
 
-  <!-- Map -->
-  <div class="mb-8">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0194081824963!2d-122.41941528468145!3d37.77492977975938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b3d59b3ff%3A0x57c1e7c676e2f91!2sSan%20Francisco%20Bay%20Area!5e0!3m2!1sen!2sus!4v1682609095615!5m2!1sen!2sus" 
-      width="100%" 
-      height="300" 
-      style="border:0; border-radius: 12px;" 
-      allowfullscreen="" 
-      loading="lazy"
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </div>
-
-  <!-- Timezone -->
-  <div id="local-time" class="text-xl font-medium text-gray-700">
-    Local time: <span id="time-display">Loading...</span>
-  </div>
+<section class="py-8 bg-white text-center text-gray-700">
+  <p class="text-lg md:text-xl font-medium">
+    📍 Based in the <strong>San Francisco Bay Area</strong> · 🕒 Local time: <span id="local-time" class="font-semibold">Loading...</span>
+  </p>
 
   <script>
     function updateTime() {
@@ -61,9 +63,9 @@ permalink: /
         hour12: true
       };
       const now = new Date().toLocaleTimeString('en-US', options);
-      document.getElementById('time-display').textContent = now;
+      document.getElementById('local-time').textContent = now;
     }
     updateTime();
-    setInterval(updateTime, 60000); // update every 60 seconds
+    setInterval(updateTime, 60000);
   </script>
 </section>
