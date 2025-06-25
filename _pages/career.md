@@ -1,3 +1,9 @@
+---
+layout: page
+title: Career
+permalink: /career/
+---
+
 <section id="career" class="pt-32 pb-16 px-8 md:px-16 bg-white">
   <h2 class="text-3xl font-semibold mb-12 text-center">Career Journey</h2>
 
