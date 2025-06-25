@@ -1,11 +1,20 @@
 title: "Akshay Pujari"
-email: "akshaypujari013@gmail.com"
 author: "Akshay Pujari"
-description: "Personal website and portfolio of Akshay Pujari – Data Scientist, Software Engineer, and Bioinformatician."
+email: "akshaypujari013@gmail.com"
+description: "Personal website and portfolio of Akshay Pujari"
 
-baseurl: "" # for GitHub Pages root
 url: "https://akshaypujari.github.io"
+baseurl: "" # Important for user/organization GitHub Pages
+
 timezone: "America/Los_Angeles"
+
+markdown: kramdown
+theme: null
+permalink: pretty
+
+sass:
+  sass_dir: assets/_scss
+  style: compressed
 
 collections:
   publications:
@@ -27,10 +36,6 @@ defaults:
     values:
       layout: page
 
-sass:
-  sass_dir: assets/_scss
-  style: compressed
-
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -41,8 +46,8 @@ social_links:
   linkedin: https://www.linkedin.com/in/akshaypujari/
   twitter: https://twitter.com/el_akshay
 
-markdown: kramdown
-theme: null
+include:
+  - _pages
 
 exclude:
   - Gemfile
@@ -50,5 +55,3 @@ exclude:
   - node_modules
   - README.md
   - google*.html
-
-permalink: pretty
