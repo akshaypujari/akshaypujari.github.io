@@ -1,42 +1,16 @@
 <script>
-  // Apply saved theme
-  if (
-    localStorage.getItem("theme") === "dark" ||
-    (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)
-  ) {
-    document.documentElement.classList.add("dark");
-  }
-
   document.addEventListener("DOMContentLoaded", function () {
-    const toggle = document.getElementById("theme-toggle");
-    const icon = document.getElementById("theme-icon");
-
-    const setIcon = () => {
-      if (document.documentElement.classList.contains("dark")) {
-        icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M12 3v1m0 16v1m8.485-8.485l-.707.707M4.222 4.222l-.707.707M21 12h1M3 12H2m16.95 4.95l-.707-.707M6.343 17.657l-.707-.707M12 5a7 7 0 000 14 7 7 0 000-14z" />`; // Sun
-      } else {
-        icon.innerHTML = `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z" />`; // Moon
-      }
-    };
-
-    setIcon();
-
-    toggle?.addEventListener("click", function () {
-      document.documentElement.classList.toggle("dark");
-      localStorage.setItem(
-        "theme",
-        document.documentElement.classList.contains("dark") ? "dark" : "light"
-      );
-      setIcon();
-    });
-
-    // Mobile nav toggle
     const menuToggle = document.getElementById("mobile-menu-toggle");
     const menu = document.getElementById("mobile-menu");
-    menuToggle?.addEventListener("click", () => {
-      menu?.classList.toggle("hidden");
-    });
+
+    if (menuToggle && menu) {
+      menuToggle.addEventListener("click", function () {
+        if (menu.classList.contains("hidden")) {
+          menu.classList.remove("hidden");
+        } else {
+          menu.classList.add("hidden");
+        }
+      });
+    }
   });
 </script>
