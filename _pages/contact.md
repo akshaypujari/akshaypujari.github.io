@@ -15,16 +15,16 @@ permalink: /contact/
     <a href="https://twitter.com/el_akshay" target="_blank" class="hover:text-blue-500 transition-transform hover:scale-110">
       <i class="fab fa-twitter"></i>
     </a>
-    <a href="https://github.com/akshaypujari" target="_blank" class="hover:text-black transition-transform hover:scale-110">
-      <i class="fab fa-github"></i>
+    <a href="https://bsky.app/profile/akshaypujari.bsky.social" target="_blank" class="hover:text-blue-500 transition-transform hover:scale-110">
+      <i class="fab fa-bluesky"></i>
     </a>
   </div>
 </section>
 
-<!-- Collapsible Contact Form Section -->
-<section class="pt-16 pb-24 px-8 md:px-16 bg-gray-100">
-  <details class="w-full max-w-5xl mx-auto rounded-lg shadow-sm bg-white">
-    <summary class="cursor-pointer px-6 py-4 text-lg font-semibold bg-blue-100 text-blue-800 rounded-t-lg hover:bg-blue-200 transition">
+<!-- Contact Form -->
+<section class="pt-8 pb-24 px-8 md:px-16 bg-white">
+  <details class="w-full max-w-5xl mx-auto rounded-lg shadow border border-gray-200">
+    <summary class="cursor-pointer px-6 py-4 text-lg font-medium bg-gray-100 text-gray-800 rounded-t-lg hover:bg-gray-200 transition">
       📬 Send a Message
     </summary>
 
@@ -40,7 +40,7 @@ permalink: /contact/
         frameborder="0"
         marginheight="0"
         marginwidth="0"
-        class="rounded-md border shadow-md w-full">
+        class="rounded-md border shadow w-full">
         Loading…
       </iframe>
     </div>
