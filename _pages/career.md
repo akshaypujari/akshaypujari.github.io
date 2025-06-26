@@ -21,12 +21,10 @@ permalink: /career/
         <p class="text-lg font-semibold text-gray-800">Rubedo Life Sciences</p>
         <p class="text-sm italic text-gray-600">Data Scientist II / Software Engineer II</p>
         <ul class="list-disc list-inside space-y-1 text-sm">
-          <li>Developing ALEMBIC, an AI-driven discovery and analysis platform integrating advanced computational algorithms with biology and chemistry.</li>
-          <li>Designed and scaled backend architecture, deployed web-based visualizations, and automated scientific pipelines across cloud environments.</li>
-          <li>Led UI/UX modernization efforts and collaborated closely with biology, chemistry, and pharmacology teams on drug discovery workflows.</li>
+          <li>Core member developing ALEMBIC, an AI-driven discovery and analysis platform integrating advanced computational algorithms with biology and chemistry.</li>
         </ul>
       </div>
-      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2022 – Present</div>
+      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2020 – Present</div>
     </div>
 
     <!-- Phaedon -->
@@ -45,7 +43,7 @@ permalink: /career/
           <li>Provided branding, content curation, and analytics integration with SEO & schema optimization.</li>
         </ul>
       </div>
-      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2021 – Present</div>
+      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2022 – Present</div>
     </div>
 
     <!-- DiCE -->
@@ -56,14 +54,14 @@ permalink: /career/
         </div>
       </div>
       <div class="md:col-span-4 space-y-2">
-        <p class="text-lg font-semibold text-gray-800">DiCE Molecules (Now Subsidiary of Eli Lilly and Company)</p>
+        <p class="text-lg font-semibold text-gray-800">DiCE Therapeutics (Now Subsidiary of Eli Lilly and Company)</p>
         <p class="text-sm italic text-gray-600">Research Associate II</p>
         <ul class="list-disc list-inside space-y-1 text-sm">
           <li>Supported chemoinformatics and early-stage discovery efforts through data analytics, visualization, and high-throughput processing tools.</li>
           <li>Collaborated with internal and external partners to develop experimental analysis dashboards and curated scientific databases.</li>
         </ul>
       </div>
-      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2020 – 2022</div>
+      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2017 – 2019</div>
     </div>
 
   </div>
@@ -87,7 +85,7 @@ permalink: /career/
           <li>Conducted immunohistochemistry and in vitro endothelial cell flow experiments; presented research at BMES and IALS Symposium.</li>
         </ul>
       </div>
-      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2015 – 2017</div>
+      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2014 – 2017</div>
     </div>
 
     <!-- KIT -->
@@ -105,7 +103,7 @@ permalink: /career/
           <li>Held leadership roles including Student Council Member, Chess Team Captain, and College Sports Secretary.</li>
         </ul>
       </div>
-      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2010 – 2014</div>
+      <div class="md:col-span-1 text-sm text-gray-500 text-right md:text-left">2009 – 2013</div>
     </div>
 
   </div>
