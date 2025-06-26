@@ -1,0 +1,37 @@
+industry:
+  - company: Rubedo Life Sciences
+    title: Data Scientist II / Software Engineer II
+    years: "2020 – Present"
+    logo: rubedo-logo.png
+    points:
+      - Core member developing ALEMBIC, an AI-driven discovery and analysis platform integrating advanced computational algorithms with biology and chemistry.
+
+  - company: Phaedon Institute
+    title: Web Infrastructure & Technology Lead (Ad hoc Volunteer)
+    years: "2022 – Present"
+    logo: phaedon-institute-primary-logo.png
+    points:
+      - Led the end-to-end development of the organization’s website in collaboration with founding board members.
+      - Maintained infrastructure, supported creative direction, and integrated SEO analytics.
+
+  - company: DiCE Therapeutics (Now Subsidiary of Eli Lilly and Company)
+    title: Research Associate II
+    years: "2017 – 2019"
+    logo: dice-therapeutics-logo.png
+    points:
+      - Supported chemoinformatics and early-stage discovery through data analytics and high-throughput tools.
+      - Built experimental dashboards and curated scientific databases with cross-functional teams.
+
+education:
+  - org: University of Massachusetts Amherst
+    title: Research Assistant
+    years: "2014 – 2017"
+    logo: umass-logo.png
+    points:
+      - Developed pipelines for image analysis.
+  - org: Kolhapur Institute of Technology
+    title: B.Tech – Mechanical Engineering
+    years: "2009 – 2013"
+    logo: unishivaji-logo.png
+    points:
+      - Awarded best project at ISTE National Convention.
