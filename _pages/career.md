@@ -8,7 +8,7 @@ permalink: /career/
 {% assign education = site.data.career.education %}
 
 <section class="pt-32 pb-20 px-8 md:px-16 bg-white">
-  <h1 class="text-3xl font-semibold mb-12 text-center">Career Journey</h2>
+  <h1 class="text-3xl font-semibold mb-12 text-center">Career Journey</h1>
 
   <h2 class="text-xl font-bold text-gray-700 mt-20 mb-6">Industry Experience</h2>
   <div class="space-y-12">

@@ -22,25 +22,21 @@ permalink: /contact/
 </section>
 
 <!-- Contact Form -->
-<section class="pt-8 pb-24 px-8 md:px-16 bg-white">
-  <details class="w-full max-w-5xl mx-auto rounded-lg shadow border border-gray-200">
-    <summary class="cursor-pointer px-6 py-4 text-lg font-medium bg-gray-100 text-gray-800 rounded-t-lg hover:bg-gray-200 transition">
-      📬 Send a Message
+<section class="pt-16 pb-24 px-8 md:px-16 bg-white">
+  <details class="group w-full max-w-5xl mx-auto bg-white border border-gray-200 rounded-xl shadow-sm transition-all duration-300 hover:shadow-md">
+    <summary class="flex justify-between items-center cursor-pointer px-6 py-4 text-lg font-medium text-gray-800 rounded-t-xl bg-gray-50 group-open:rounded-b-none group-open:bg-blue-50 group-open:border-b group-open:border-gray-200 transition-colors">
+      <span>Send a Message</span>
+      <i class="fas fa-paper-plane text-blue-500 group-hover:translate-x-1 transition-transform duration-200"></i>
     </summary>
 
     <div class="px-6 pb-6 pt-2">
       <p class="mb-4 text-gray-700 text-base">
         Use the form below to reach out directly.
       </p>
-
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdG0RpVDA2If28DH2RpYCRYjjLhrekBkY0lKjyJtEB7xfeKsQ/viewform?embedded=true"
-        width="100%"
-        height="700"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        class="rounded-md border shadow w-full">
+        width="100%" height="100%" frameborder="5" marginheight="10" marginwidth="10"
+        class="rounded-md border border-gray-200 shadow-sm w-full">
         Loading…
       </iframe>
     </div>
