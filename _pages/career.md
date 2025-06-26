@@ -1,3 +1,9 @@
+---
+layout: page
+title: Career
+permalink: /career/
+---
+
 {% assign industry = site.data.career.industry %}
 {% assign education = site.data.career.education %}
 
