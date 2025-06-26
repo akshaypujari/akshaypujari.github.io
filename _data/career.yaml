@@ -11,26 +11,36 @@ industry:
     years: "2022 – Present"
     logo: phaedon-institute-primary-logo.png
     points:
-      - Led the end-to-end development of the organization’s website in collaboration with founding board members.
-      - Maintained infrastructure, supported creative direction, and integrated SEO analytics.
+      - The Phaedon Institute is a non-for-profit scientific think tank committed to pioneering advancements in the fields of aging and longevity sciences.
+      - Independently led the end-to-end development of the organization’s website in close collaboration with founding board members; continue to actively oversee its web and technical operations on ad hoc basis. (www.phaedon.institute)
+      - Contributed to the organization of Seno-Therapeutics Summit 2023 at the Buck Institute for Research on Aging; and 2025 Summit in Rome, Italy.
 
   - company: DiCE Therapeutics (Now Subsidiary of Eli Lilly and Company)
     title: Research Associate II
     years: "2017 – 2019"
     logo: dice-therapeutics-logo.png
     points:
-      - Supported chemoinformatics and early-stage discovery through data analytics and high-throughput tools.
-      - Built experimental dashboards and curated scientific databases with cross-functional teams.
+      - Part of early-staged drug discovery company focused on discovering drug-like molecules for pharmaceutical targets based on innovative DNA-programmed combinatorial chemistry synthesis platform.
+      - Designed and developed instrumentation, equipment, and procedures for novel fluidic pumps used for state of the art drug discovery using DNA-programmed combinatorial chemistry.
+      - Assisted bioinformatics team in data analysis, interpretation and visualizations; presented data to the team on a regular basis.
+      - Identified, tested, and experimented process and material improvements. Successfully improved the affinity chromatography binding efficiency by 1.5x, leading to updates in chemistry protocols.
+      - Conducted literature and patent reviews to stay current with technologies and implemented them.
+      - Managed lab equipment procurement, maintenance, and safety, including overseeing the disposal of hazardous chemicals.
 
 education:
   - org: University of Massachusetts Amherst
-    title: Research Assistant
+    title: Graduate Research Assistant
     years: "2014 – 2017"
     logo: umass-logo.png
     points:
-      - Developed pipelines for image analysis.
-      - Conducted IHC and in vivo imaging studies on lymphatic flow.
-      - Presented work at BMES and IALS Symposium.
+      - Investigated lymphatic fluid flow and valve dynamics in wild-type and genetically modified mice using in-vivo imaging and computational analyses.
+      - Developed image analysis pipelines for particle tracking, edge detection, and vessel segmentation (Python, MATLAB, ImageJ, Imaris).
+      - Conducted IHC experiments on mice tissues to identify differential protein expression of vascular endothelial cells subjected to varying flow regimes.
+      - Studied hemodynamics in cardiovascular and cerebral vessels; explored implications for disease progression, including cancer metastasis.
+      - Analyzed the vascular impact of stents, catheters, pharmacological agents and medical devices.
+      - Conducted literature reviews on pathophysiology, development and treatment of vascular diseases such as atherosclerosis, thrombosis, aneurysms, myocardial infarction and lymphedema.
+      - Presented findings at multiple symposia; contributed to manuscripts and scientific figures as lead author on publications.
+      - Mentored junior lab members and presented journal articles in lab meetings.
 
   - org: Kolhapur Institute of Technology
     title: Bachelor of Engineering – Mechanical Engineering
@@ -40,3 +50,8 @@ education:
       - Graduated with honors.
       - Awarded Best Project at ISTE National Convention.
       - Held leadership roles in student council and athletics.
+        - Elected by a student body of 3,000+ to the College Student Council.
+        - Oversaw intercollegiate participation in state and national-level sports tournaments.
+        - Served as Captain of the Chess Team, representing the college at national tournaments.
+        - Led logistics, scheduling and team selection across multiple disciplines.
+        - Collaborated with college leadership on event plannings.
