@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    {% include head.html %}
-  </head>
-  <body class="bg-gray-50 text-gray-900 font-sans">
+  {% include head.html %}
+  <body class="bg-gray-50 text-gray-900 font-sans flex flex-col min-h-screen">
     {% include navbar.html %}
 
-    <main class="pt-24 px-6 md:px-16">
+    <!-- wrap page content in your Tailwind main wrapper -->
+    <main class="pt-24 px-6 md:px-16 flex-1">
       {{ content }}
     </main>
 
