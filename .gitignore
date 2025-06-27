@@ -31,3 +31,7 @@ yarn-error.log*
 
 # OS junk
 Thumbs.db
+
+# css
+assets/css/generated.css
+assets/css/temp.css

@@ -1,40 +1,15 @@
 {
-  "devDependencies": {
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.11"
-  },
   "name": "akshaypujari.github.io",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "sass assets/css/main.scss assets/css/main.css && tailwindcss -i assets/css/main.css -o assets/css/generated.css --minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshaypujari/akshaypujari.github.io.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/akshaypujari/akshaypujari.github.io/issues"
-  },
-  "homepage": "https://github.com/akshaypujari/akshaypujari.github.io#readme",
-  "dependencies": {
-    "browserslist": "^4.25.1",
-    "caniuse-lite": "^1.0.30001726",
-    "electron-to-chromium": "^1.5.176",
-    "escalade": "^3.2.0",
-    "fraction.js": "^4.3.7",
-    "nanoid": "^3.3.11",
-    "node-releases": "^2.0.19",
-    "normalize-range": "^0.1.2",
-    "picocolors": "^1.1.1",
-    "postcss-value-parser": "^4.2.0",
-    "source-map-js": "^1.2.1",
-    "update-browserslist-db": "^1.1.3"
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.11",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "sass": "^1.69.5",
+    "tailwindcss": "^4.1.11"
   }
 }
