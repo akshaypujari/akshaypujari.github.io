@@ -3,36 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ page.title | default: "Akshay Pujari" }}</title>
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <!-- Title fallback -->
+  <title>{{ page.title | default: site.title }}</title>
 
-  <!-- Tailwind CDN (optional, use in dev mode) -->
-  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
-   <!-- Tailwind generated CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/generated.css' | relative_url }}">
-
-  <!-- Compiled CSS -->
-  <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
-
-  <!-- Head Includes -->
   {% include head.html %}
 </head>
+
 <body class="bg-gray-50 text-gray-900 font-sans flex flex-col min-h-screen">
-  <!-- Navbar -->
+
   {% include navbar.html %}
 
-  <!-- Page Content -->
   <main class="pt-24 px-6 md:px-16 flex-1">
     {{ content }}
   </main>
 
-  <!-- Footer -->
   {% include footer.html %}
-
-  <!-- Scripts (mobile nav, etc.) -->
   {% include scripts.html %}
 
 </body>
