@@ -22,3 +22,18 @@
 
 <!-- Lottie player -->
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const lottie = document.getElementById("hero-lottie");
+    if (!lottie) return;
+
+    lottie.addEventListener("mouseenter", () => {
+      lottie.setSpeed(1.2); // Speed up on pointer
+    });
+
+    lottie.addEventListener("mouseleave", () => {
+      lottie.setSpeed(0.3); // Reset to slow
+    });
+  });
+</script>
