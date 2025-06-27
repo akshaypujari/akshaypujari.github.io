@@ -35,3 +35,46 @@ Thumbs.db
 # css
 assets/css/generated.css
 assets/css/temp.css
+
+# Jekyll build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# SCSS or PostCSS generated files
+*.generated.css
+assets/css/generated.css
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# PostCSS / Tailwind cache
+.cache/
+dist/
+build/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# System thumbnails and OS junk
+Thumbs.db
+
+# Environment config
+.env
+.env.*
+
+# Git hooks
+.git/hooks/
+
+# Logs
+*.log
+
+# Codespaces / GitHub Codespaces
+.devcontainer/
+*.code-workspace

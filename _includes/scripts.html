@@ -1,17 +1,16 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("mobile-menu-toggle");
-    const menu = document.getElementById("mobile-menu");
+    const mobileMenu = document.getElementById("mobile-menu");
 
-    if (!menuToggle || !menu) return;
+    if (!menuToggle || !mobileMenu) return;
 
     menuToggle.addEventListener("click", () => {
-      const isOpen = !menu.classList.contains("hidden");
+      const expanded = menuToggle.getAttribute("aria-expanded") === "true";
+      menuToggle.setAttribute("aria-expanded", String(!expanded));
+      mobileMenu.classList.toggle("hidden");
 
-      menu.classList.toggle("hidden");
-      menuToggle.setAttribute("aria-expanded", String(!isOpen));
-
-      // Optional: animate the toggle icon
+      // Optional: animate icon (rotate, etc.)
       const icon = menuToggle.querySelector("svg");
       if (icon) {
         icon.classList.toggle("rotate-90");
