@@ -4,10 +4,6 @@ _site/
 .jekyll-metadata
 .sass-cache/
 
-# SCSS or PostCSS generated files
-*.generated.css
-assets/css/generated.css
-
 # Node.js dependencies
 node_modules/
 npm-debug.log*
