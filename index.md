@@ -8,8 +8,17 @@ permalink: /
   <div class="relative text-center px-6 z-10 animate-fadeIn">
     <h1 class="text-4xl md:text-6xl font-bold mb-4">Akshay Pujari</h1>
     <p class="text-lg md:text-xl max-w-2xl mx-auto">
-      Data Scientist ∙ Software Engineer ∙ Bioinformatician ∙ Creative Technologist
+      Data Scientist ∙ Software Engineer ∙ Bioinformatician
     </p>
+  </div>
+  <div class="flex-1 max-w-sm">
+    <lottie-player
+      src="{{ '/assets/graphics/agx-spaces.json' | relative_url }}"
+      background="transparent"
+      speed="1"
+      loop
+      autoplay
+    ></lottie-player>
   </div>
 </section>
 
