@@ -8,7 +8,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-  <!-- Tailwind CDN (optional if not building with PostCSS) -->
+  <!-- Tailwind CDN (optional, use in dev mode) -->
   <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 
    <!-- Tailwind generated CSS -->
@@ -21,7 +21,6 @@
   {% include head.html %}
 </head>
 <body class="bg-gray-50 text-gray-900 font-sans flex flex-col min-h-screen">
-
   <!-- Navbar -->
   {% include navbar.html %}
 
@@ -33,7 +32,8 @@
   <!-- Footer -->
   {% include footer.html %}
 
-  <!-- Scripts (Dark mode, mobile nav, etc.) -->
+  <!-- Scripts (mobile nav, etc.) -->
   {% include scripts.html %}
+
 </body>
 </html>
