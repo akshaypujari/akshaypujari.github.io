@@ -1,16 +1,21 @@
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", () => {
     const menuToggle = document.getElementById("mobile-menu-toggle");
     const menu = document.getElementById("mobile-menu");
 
-    if (menuToggle && menu) {
-      menuToggle.addEventListener("click", function () {
-        if (menu.classList.contains("hidden")) {
-          menu.classList.remove("hidden");
-        } else {
-          menu.classList.add("hidden");
-        }
-      });
-    }
+    if (!menuToggle || !menu) return;
+
+    menuToggle.addEventListener("click", () => {
+      const isOpen = !menu.classList.contains("hidden");
+
+      menu.classList.toggle("hidden");
+      menuToggle.setAttribute("aria-expanded", String(!isOpen));
+
+      // Optional: animate the toggle icon
+      const icon = menuToggle.querySelector("svg");
+      if (icon) {
+        icon.classList.toggle("rotate-90");
+      }
+    });
   });
 </script>
