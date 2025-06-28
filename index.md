@@ -3,29 +3,6 @@ layout: default
 permalink: /
 ---
 
-<section class="relative min-h-screen flex flex-col items-center justify-center text-white pt-24 px-6">
-  <div class="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-gray-800"></div>
-
-  <div class="relative z-10 text-center animate-fadeIn space-y-6">
-    <h1 class="text-4xl md:text-6xl font-bold">Akshay Pujari</h1>
-    <p class="text-lg md:text-xl max-w-2xl mx-auto">
-      Data Scientist ∙ Software Engineer ∙ Bioinformatician
-    </p>
-
-    <div class="w-full max-w-xs mx-auto pointer-events-auto">
-      <lottie-player
-        id="hero-lottie"
-        src="{{ '/assets/graphics/agx-spaces.json' | relative_url }}"
-        background="transparent"
-        speed="0.3"
-        loop
-        autoplay
-        style="width: 100%; height: auto;"
-      ></lottie-player>
-    </div>
-  </div>
-</section>
-
 <section class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white">
   <div class="max-w-5xl mx-auto">
     <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-16 tracking-tight">
