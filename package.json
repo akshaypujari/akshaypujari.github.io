@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:css": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/generated.css --minify",
-    "watch:css": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/generated.css --watch"
+    "build:css": "postcss assets/css/tailwind.css --output assets/css/generated.css --env production",
+    "watch:css": "postcss assets/css/tailwind.css --output assets/css/generated.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.11",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
+    "postcss-import": "^16.1.1",
     "sass": "^1.69.5",
     "tailwindcss": "^4.1.11"
   }
