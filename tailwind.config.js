@@ -12,6 +12,12 @@ module.exports = {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
+      colors: {
+        primary: "#1e3a8a",    // your indigo-800
+        secondary: "#374151",  // your gray-700
+        text: "#1f2937",       // your gray-800
+        page: "#f9fafb",       // your gray-50
+      }
     },
   },
   plugins: [],

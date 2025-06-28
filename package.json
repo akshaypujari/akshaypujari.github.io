@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build:css": "sass assets/css/main.scss assets/css/main.css && npx tailwindcss -i assets/css/main.css -o assets/css/generated.css --minify",
-    "watch:css": "npx tailwindcss -i assets/css/main.css -o assets/css/generated.css --watch"
+    "build:css": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/generated.css --minify",
+    "watch:css": "npx tailwindcss -i assets/css/tailwind.css -o assets/css/generated.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.11",

@@ -4,7 +4,7 @@
   padding: 0.5rem 1rem;
   border-radius: 6px;
   &:hover {
-    background-color: darken($primary-color, 10%);
+    background-color: color.adjust(vars.$primary-color, $lightness: -10%);
   }
 }
 
