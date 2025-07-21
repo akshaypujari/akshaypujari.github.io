@@ -229,6 +229,13 @@
     }
   }
 }
+.hover\:scale-\[1\.02\] {
+  &:hover {
+    @media (hover: hover) {
+      scale: 1.02;
+    }
+  }
+}
 .hover\:underline {
   &:hover {
     @media (hover: hover) {
