@@ -50,3 +50,14 @@
     });
   });
 </script>
+
+<!-- Clean URL (Removes #) -->
+<script>
+  function scrollToSection(e, selector) {
+    const el = document.querySelector(selector);
+    if (!el) return;
+    e.preventDefault();
+    history.replaceState(null, null, ' '); // Clean the URL
+    el.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>

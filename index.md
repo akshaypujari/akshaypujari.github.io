@@ -50,70 +50,45 @@ description: Experienced data scientist and software engineer in biotech, buildi
       Computational scientist with expertise in developing advanced data processing pipelines, algorithms, visualizations, and software tools to support diverse research teams in biotech. Proficient in integrating and analyzing diverse data and technologies, including multi-omics, NGS, imaging, chemoinformatics, alongside in-silico, in-vitro, and in-vivo experiments to drive data and literature-driven research.
     </p>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
-      <!-- Card 1: Professional Role -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <!-- Card 1: Professional Roles and Current Focus -->
       <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
            data-aos="fade-up" data-aos-delay="200">
         <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-microscope mr-2 text-primary"></i> Professional Role
+          <i class="fas fa-microscope mr-2 text-primary"></i> Professional Roles & Focus
         </h3>
-        <p class="text-gray-800 text-base leading-relaxed">
-          Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry.
-        </p>
+        <ul class="list-disc pl-5 text-gray-800 text-base leading-relaxed space-y-3">
+          <li>
+            Data Scientist II / Software Engineer II at Rubedo Life Sciences primarily working on developing ALEMBIC, an AI-driven discovery and analysis platform based on a synergy between sophisticated computational algorithms, biology and chemistry.
+          </li>
+          <li>
+            Previously, Research Associate II at DiCE Therapeutics.
+          </li>
+          <li>
+            Current focus includes building reproducible, scalable tools that help unify biology, chemistry, and computation across research pipelines.
+          </li>
+        </ul>
       </div>
 
-      <!-- Card 2: Previous Experience -->
+      <!-- Card 2: Academic and Research Background -->
       <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
            data-aos="fade-up" data-aos-delay="300">
         <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-building mr-2 text-primary"></i> Previous Experience
+          <i class="fas fa-graduation-cap mr-2 text-primary"></i> Academic & Research
         </h3>
         <p class="text-gray-800 text-base leading-relaxed">
-          Previously, Research Associate II at DiCE Therapeutics, contributing to early-stage discovery research at the chemistry-biology interface.
+          Graduated from the University of Massachusetts, Amherst. Primary research in the Vascular Biology and Biofluids Laboratory focused on understanding the lymphatic system, integrating in-vivo, ex-vivo experimentation and deep computational analysis. Educational background encompasses coursework in engineering, biology, and computer science.
         </p>
       </div>
 
-      <!-- Card 3: Research Background -->
+      <!-- Card 3: Core Values -->
       <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
            data-aos="fade-up" data-aos-delay="400">
         <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-dna mr-2 text-primary"></i> Research Background
-        </h3>
-        <p class="text-gray-800 text-base leading-relaxed">
-          UMass Amherst – Research in the Vascular Biology and Biofluids Lab focused on the lymphatic system, using in-vivo, ex-vivo experimentation and computational analysis.
-        </p>
-      </div>
-
-      <!-- Card 4: Academic Foundation -->
-      <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
-           data-aos="fade-up" data-aos-delay="500">
-        <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-graduation-cap mr-2 text-primary"></i> Academic Foundation
-        </h3>
-        <p class="text-gray-800 text-base leading-relaxed">
-          Educational background includes coursework in engineering, biology, and computer science—grounding in cross-disciplinary problem solving.
-        </p>
-      </div>
-
-      <!-- Card 5: Philosophy -->
-      <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
-           data-aos="fade-up" data-aos-delay="600">
-        <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-lightbulb mr-2 text-primary"></i> Philosophy
+          <i class="fas fa-compass mr-2 text-primary"></i> Core Values
         </h3>
         <p class="text-gray-800 text-base leading-relaxed">
           Passionate about unification of disciplines to solve new problems relevant in understanding and improving human life.
-        </p>
-      </div>
-
-      <!-- Card 6: Current Focus -->
-      <div class="bg-white shadow-md rounded-2xl p-8 border border-gray-100 hover:shadow-xl transition-all"
-           data-aos="fade-up" data-aos-delay="700">
-        <h3 class="text-xl font-semibold text-primary mb-4 flex items-center">
-          <i class="fas fa-cogs mr-2 text-primary"></i> Current Focus
-        </h3>
-        <p class="text-gray-800 text-base leading-relaxed">
-          Building reproducible, scalable tools that help unify biology, chemistry, and computation across research pipelines.
         </p>
       </div>
     </div>
