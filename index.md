@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /
+title: Akshay Pujari — Portfolio
+description: Experienced data scientist and software engineer in biotech, building AI-driven tools to unify biology, chemistry and computation.
 ---
 
 <section class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white">

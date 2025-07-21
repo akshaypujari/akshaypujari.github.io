@@ -55,3 +55,21 @@ exclude:
   - node_modules
   - README.md
   - google*.html
+
+# Social preview settings
+logo: /assets/icons/android-chrome-512x512.png
+
+twitter:
+  username: el_akshay
+  card: summary_large_image
+
+social:
+  name: Akshay Pujari
+  links:
+    - https://www.linkedin.com/in/akshaypujari/
+    - https://twitter.com/el_akshay
+    - https://github.com/akshaypujari
+    - https://github.com/akshaypujari-rubedo
+    - https://www.linkedin.com/in/akshaypujari/
+    - https://www.instagram.com/el_akshay/
+    - https://bsky.app/profile/akshaypujari.bsky.social

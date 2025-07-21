@@ -5,7 +5,9 @@ module.exports = {
     "./_layouts/**/*.{html,js,md}",
     "./_pages/**/*.{html,js,md}",
     "./_posts/**/*.{html,js,md}",
-    "./*.{html,md}"
+    "./_publications/**/*.{html,js,md}",
+    "./*.{html,md}",
+    "./assets/**/*.{js,css}"
   ],
   theme: {
     extend: {
@@ -20,5 +22,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
