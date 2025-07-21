@@ -2,11 +2,13 @@
   <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
     <!-- Brand -->
-     {% unless page.url == "/" %}
+    {% if page.url == "/" %}
+      <span class="block w-[10rem] h-6"></span>
+    {% else %}
       <a href="{{ '/' | relative_url }}" class="text-xl font-semibold text-gray-800 dark:text-white">
         Akshay Pujari
       </a>
-     {% endunless %}
+    {% endif %}
 
     <!-- Desktop Nav -->
     <nav class="hidden md:flex items-center space-x-6">
