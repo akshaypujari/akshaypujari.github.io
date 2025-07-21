@@ -7,7 +7,7 @@ description: Experienced data scientist and software engineer in biotech, buildi
 
 <section id="about" class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white scroll-mt-24">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-5xl font-extrabold text-center text-blue-700 mb-16 tracking-tight">
+    <h2 class="text-5xl font-extrabold text-center text-primary mb-16 tracking-tight">
       About Me
     </h2>
 
