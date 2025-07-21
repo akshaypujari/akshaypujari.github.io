@@ -5,9 +5,9 @@ title: Akshay Pujari — Portfolio
 description: Experienced data scientist and software engineer in biotech, building AI-driven tools to unify biology, chemistry and computation.
 ---
 
-<section class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white">
+<section id="about" class="py-24 px-6 md:px-16 bg-gradient-to-br from-white via-gray-50 to-white scroll-mt-24">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-5xl font-extrabold text-center text-gray-800 mb-16 tracking-tight">
+    <h2 class="text-5xl font-extrabold text-center text-blue-700 mb-16 tracking-tight">
       About Me
     </h2>
 
@@ -39,7 +39,6 @@ description: Experienced data scientist and software engineer in biotech, buildi
     </div>
   </div>
 </section>
-
 
 <section class="py-8 bg-white text-center text-gray-700">
   <p class="text-lg md:text-xl font-medium">

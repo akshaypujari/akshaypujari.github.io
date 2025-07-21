@@ -35,6 +35,10 @@ defaults:
       type: "pages"
     values:
       layout: page
+  - scope:
+      path: "404.html"
+    values:
+      layout: default
 
 plugins:
   - jekyll-feed
