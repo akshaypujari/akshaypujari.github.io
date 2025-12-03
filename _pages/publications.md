@@ -56,8 +56,8 @@ permalink: /publications/
           {{ pub.title }}
         </h2>
         <!-- Authors -->
-        <p class="mt-1 text-gray-700">
-          {{ pub.authors }}.
+        <p class="mt-1 text-gray-500">
+          {{ pub.authors | replace: 'Akshay Pujari', '<strong class="underline">Akshay Pujari</strong>' }}.
         </p>
         <!-- Journal / Year / DOI -->
         <p class="mt-1 text-gray-700">
