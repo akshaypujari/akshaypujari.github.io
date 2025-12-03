@@ -69,7 +69,7 @@ permalink: /publications/
               target="_blank"
               rel="noopener"
             >
-              DOI
+              <strong>DOI</strong>
             </a>
           {% endif %}
         </p>
